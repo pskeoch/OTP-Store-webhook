@@ -314,7 +314,7 @@ app.get('/otp', function (req, res) {
 	res.send('GOT');
 });
 
-// when there's a post request to /app...
+// when there's a post request to /otp...
 app.post('/otp', function (req, res) {
 	//respond with 200 OK
 	res.send('OK');
